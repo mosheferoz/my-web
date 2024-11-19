@@ -1,0 +1,68 @@
+/* כלליים */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* יישור כל האלמנטים במרכז */
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #333333; /* רקע כהה */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-title {
+    color: #ffffff; /* צבע לבן */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.login-input {
+    display: block; /* בלוק מלא */
+    width: 100%; /* תופס את כל הרוחב */
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc; /* גבול בהיר */
+    border-radius: 5px;
+    background-color: #444444;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center; /* ממרכז טקסט */
+    box-sizing: border-box; /* מבטיח שהריווח לא ישבור את הרוחב */
+}
+
+.login-button {
+    background-color: #055b9d;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.login-button:hover {
+        background-color: #E0E0E0;
+        color: #000000;
+      }
+
+
+.login-footer {
+    color: #cccccc;
+    margin-top: 15px;
+}
+
+.login-footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login-footer a:hover {
+    color: #d5d5d5; /* צבע לבן בהיר בהרחף */
+}
